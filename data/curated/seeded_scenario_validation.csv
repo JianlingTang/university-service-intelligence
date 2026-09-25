@@ -1,0 +1,4 @@
+scenario,comparison_a,comparison_b,status
+Admin assignment hours improved after routing intervention,13.51,8.45,PASS
+IT repeat contacts reduced after self-service intervention,0.5441,0.2374,PASS
+Facilities hotspot has elevated SLA breach,0.5804,0.2696,PASS

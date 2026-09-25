@@ -1,0 +1,17 @@
+flowchart LR
+    A[Service cases] --> R[Raw zone]
+    B[Case events and contacts] --> R
+    C[Student staff contractor feedback] --> R
+    D[Capacity and work orders] --> R
+    E[Digital journeys] --> R
+    F[Population and lifecycle] --> R
+    R --> Q[SQL validation and quality rules]
+    Q --> X[Data quality issue register]
+    Q --> C1[Curated star schema]
+    C1 --> M[Power BI semantic model]
+    C1 --> P[Demand forecast and backtest]
+    C1 --> A1[Analytics Action Console]
+    M --> O[Executive decisions and action tracking]
+    P --> O
+    A1 --> O
+

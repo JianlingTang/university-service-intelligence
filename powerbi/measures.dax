@@ -1,0 +1,287 @@
+// University Service Intelligence - measure library.
+// Paste this whole file into DAX query view (semantic model > Write DAX queries), select Run to check the
+// reconciliation row at the bottom, then select Update model with changes to save every measure to _Measures.
+// Measures must live in the semantic model: Publish to web does not support report-level measures.
+
+DEFINE
+    MEASURE '_Measures'[Cases Received] =
+        DISTINCTCOUNT ( FactCase[case_id] )
+
+    /// Counts cases by the month they closed, through the inactive DimDate -> FactCase[closed_date_key] relationship.
+    MEASURE '_Measures'[Cases Closed] =
+        CALCULATE (
+            [Cases Received],
+            FactCase[eligible_resolution_flag] = 1,
+            USERELATIONSHIP ( DimDate[date_key], FactCase[closed_date_key] )
+        )
+
+    /// DimDate runs 12 weeks past the data for the forecast; backlog is never measured beyond the last actual date.
+    MEASURE '_Measures'[Backlog As Of Date] =
+        MIN (
+            MAX ( DimDate[date] ),
+            CALCULATE ( MAX ( DimDate[date] ), REMOVEFILTERS ( DimDate ), DimDate[is_future] = 0 )
+        )
+
+    /// A case is in the backlog on a date if it was submitted by then and not yet closed.
+    /// Resolved cases count while they were open; merged, withdrawn and cancelled cases never count.
+    MEASURE '_Measures'[Open Backlog As Of] =
+        VAR AsOfDate = [Backlog As Of Date]
+        RETURN
+            CALCULATE (
+                DISTINCTCOUNT ( FactCase[case_id] ),
+                REMOVEFILTERS ( DimDate ),
+                FILTER (
+                    FactCase,
+                    FactCase[submitted_datetime] < AsOfDate + 1
+                        && ( FactCase[backlog_eligible_flag] = 1 || FactCase[eligible_resolution_flag] = 1 )
+                        && ( ISBLANK ( FactCase[closed_datetime] ) || FactCase[closed_datetime] >= AsOfDate + 1 )
+                )
+            )
+
+    /// Older than 7 days: the oldest open case in the data is 11 days, so a 30-day threshold is always zero.
+    MEASURE '_Measures'[Aged Backlog 7D As Of] =
+        VAR AsOfDate = [Backlog As Of Date]
+        RETURN
+            CALCULATE (
+                DISTINCTCOUNT ( FactCase[case_id] ),
+                REMOVEFILTERS ( DimDate ),
+                FILTER (
+                    FactCase,
+                    FactCase[submitted_datetime] < AsOfDate - 7
+                        && ( FactCase[backlog_eligible_flag] = 1 || FactCase[eligible_resolution_flag] = 1 )
+                        && ( ISBLANK ( FactCase[closed_datetime] ) || FactCase[closed_datetime] >= AsOfDate + 1 )
+                )
+            )
+
+    /// Backlog ageing: use AgeingBand[band] on the axis (calculated table in BUILD_GUIDE).
+    MEASURE '_Measures'[Open Backlog by Age Band] =
+        VAR AsOfDate = [Backlog As Of Date]
+        VAR MinDays = MIN ( AgeingBand[min_days] )
+        VAR MaxDays = MAX ( AgeingBand[max_days] )
+        RETURN
+            CALCULATE (
+                DISTINCTCOUNT ( FactCase[case_id] ),
+                REMOVEFILTERS ( DimDate ),
+                FILTER (
+                    FactCase,
+                    FactCase[submitted_datetime] < AsOfDate + 1
+                        && ( FactCase[backlog_eligible_flag] = 1 || FactCase[eligible_resolution_flag] = 1 )
+                        && ( ISBLANK ( FactCase[closed_datetime] ) || FactCase[closed_datetime] >= AsOfDate + 1 )
+                        && DATEDIFF ( FactCase[submitted_datetime], AsOfDate, DAY ) >= MinDays
+                        && DATEDIFF ( FactCase[submitted_datetime], AsOfDate, DAY ) <= MaxDays
+                )
+            )
+
+    MEASURE '_Measures'[Aged Backlog 7D %] =
+        DIVIDE ( [Aged Backlog 7D As Of], [Open Backlog As Of] )
+
+    MEASURE '_Measures'[Eligible Resolved Cases] =
+        CALCULATE ( [Cases Received], FactCase[eligible_resolution_flag] = 1 )
+
+    MEASURE '_Measures'[SLA Breached Cases] =
+        CALCULATE ( [Cases Received], FactCase[eligible_resolution_flag] = 1, FactCase[resolution_sla_breached] = 1 )
+
+    MEASURE '_Measures'[SLA Compliance %] =
+        1 - DIVIDE ( [SLA Breached Cases], [Eligible Resolved Cases] )
+
+    MEASURE '_Measures'[Median Resolution Business Hours] =
+        MEDIANX (
+            FILTER ( FactCase, FactCase[eligible_resolution_flag] = 1 ),
+            FactCase[resolution_business_hours]
+        )
+
+    MEASURE '_Measures'[P90 Resolution Business Hours] =
+        PERCENTILEX.INC (
+            FILTER ( FactCase, FactCase[eligible_resolution_flag] = 1 ),
+            FactCase[resolution_business_hours],
+            0.9
+        )
+
+    MEASURE '_Measures'[Median Triage Business Hours] =
+        MEDIANX (
+            FILTER ( FactCase, FactCase[eligible_resolution_flag] = 1 ),
+            FactCase[triage_business_hours]
+        )
+
+    MEASURE '_Measures'[Median Assignment Business Hours] =
+        MEDIANX (
+            FILTER ( FactCase, FactCase[eligible_resolution_flag] = 1 ),
+            FactCase[assignment_business_hours]
+        )
+
+    MEASURE '_Measures'[First Contact Resolution %] =
+        DIVIDE (
+            CALCULATE ( [Cases Received], FactCase[first_contact_resolution_flag] = 1 ),
+            [Eligible Resolved Cases]
+        )
+
+    MEASURE '_Measures'[Repeat Contact 14D %] =
+        DIVIDE (
+            CALCULATE ( [Cases Received], FactCase[repeat_contact_14d] = 1 ),
+            [Cases Received]
+        )
+
+    MEASURE '_Measures'[Handoff Rate %] =
+        DIVIDE (
+            CALCULATE ( [Cases Received], FactCase[handoff_count] > 0 ),
+            [Cases Received]
+        )
+
+    MEASURE '_Measures'[Average Handoffs] =
+        AVERAGE ( FactCase[handoff_count] )
+
+    MEASURE '_Measures'[Reopen Rate %] =
+        DIVIDE (
+            CALCULATE ( [Cases Received], FactCase[reopened_flag] = 1 ),
+            [Eligible Resolved Cases]
+        )
+
+    MEASURE '_Measures'[Estimated Staff Hours] =
+        SUM ( FactCase[staff_handle_hours] )
+
+    MEASURE '_Measures'[Estimated Cost AUD] =
+        SUM ( FactCase[estimated_cost_aud] )
+
+    MEASURE '_Measures'[Cost per Resolved Case AUD] =
+        DIVIDE ( [Estimated Cost AUD], [Eligible Resolved Cases] )
+
+    MEASURE '_Measures'[Average Monthly Active Users] =
+        AVERAGEX (
+            VALUES ( DimDate[year_month] ),
+            CALCULATE ( SUM ( FactPopulationMonthly[active_users] ) )
+        )
+
+    MEASURE '_Measures'[Cases per 1,000 Active Users] =
+        DIVIDE ( [Cases Received], [Average Monthly Active Users] ) * 1000
+
+    /// Use on cohort and lifecycle visuals: suppresses rates built on fewer than 10 cases.
+    MEASURE '_Measures'[Display Cases per 1,000] =
+        IF ( [Cases Received] >= 10, [Cases per 1,000 Active Users] )
+
+    MEASURE '_Measures'[Capacity Gap Hours] =
+        SUM ( FactCapacityWeekly[capacity_gap_hours] )
+
+    MEASURE '_Measures'[Weeks Above 10% Capacity Gap] =
+        CALCULATE (
+            DISTINCTCOUNT ( FactCapacityWeekly[week_start] ),
+            FactCapacityWeekly[capacity_gap_pct] > 0.10
+        )
+
+    MEASURE '_Measures'[Self Service Completion %] =
+        DIVIDE (
+            SUM ( FactDigitalJourneyDaily[successful_completions] ),
+            SUM ( FactDigitalJourneyDaily[self_service_sessions] )
+        )
+
+    MEASURE '_Measures'[Self Service Abandonment %] =
+        DIVIDE (
+            SUM ( FactDigitalJourneyDaily[abandonments] ),
+            SUM ( FactDigitalJourneyDaily[self_service_sessions] )
+        )
+
+    MEASURE '_Measures'[Contractor On Time %] =
+        AVERAGE ( FactWorkOrder[on_time_flag] )
+
+    MEASURE '_Measures'[Contractor Rework %] =
+        AVERAGE ( FactWorkOrder[rework_flag] )
+
+    MEASURE '_Measures'[Valid Post Case Responses] =
+        CALCULATE (
+            COUNTROWS ( FactFeedback ),
+            FactFeedback[response_valid] = 1,
+            FactFeedback[feedback_type] = "Post-case survey"
+        )
+
+    MEASURE '_Measures'[CSAT Positive %] =
+        CALCULATE (
+            AVERAGE ( FactFeedback[csat_positive_flag] ),
+            FactFeedback[response_valid] = 1,
+            FactFeedback[feedback_type] = "Post-case survey"
+        )
+
+    MEASURE '_Measures'[Negative Experience %] =
+        1 - [CSAT Positive %]
+
+    MEASURE '_Measures'[Average Customer Effort] =
+        CALCULATE (
+            AVERAGE ( FactFeedback[ces_score] ),
+            FactFeedback[response_valid] = 1,
+            FactFeedback[feedback_type] = "Post-case survey"
+        )
+
+    MEASURE '_Measures'[CSAT Wilson 95% Low] =
+        VAR N = [Valid Post Case Responses]
+        VAR P = [CSAT Positive %]
+        VAR Z = 1.96
+        VAR Denominator = 1 + DIVIDE ( Z * Z, N )
+        VAR Centre = P + DIVIDE ( Z * Z, 2 * N )
+        VAR Margin = Z * SQRT ( DIVIDE ( P * ( 1 - P ), N ) + DIVIDE ( Z * Z, 4 * N * N ) )
+        RETURN IF ( N >= 30, DIVIDE ( Centre - Margin, Denominator ) )
+
+    MEASURE '_Measures'[CSAT Wilson 95% High] =
+        VAR N = [Valid Post Case Responses]
+        VAR P = [CSAT Positive %]
+        VAR Z = 1.96
+        VAR Denominator = 1 + DIVIDE ( Z * Z, N )
+        VAR Centre = P + DIVIDE ( Z * Z, 2 * N )
+        VAR Margin = Z * SQRT ( DIVIDE ( P * ( 1 - P ), N ) + DIVIDE ( Z * Z, 4 * N * N ) )
+        RETURN IF ( N >= 30, DIVIDE ( Centre + Margin, Denominator ) )
+
+    MEASURE '_Measures'[Display CSAT %] =
+        IF ( [Valid Post Case Responses] >= 10, [CSAT Positive %] )
+
+    MEASURE '_Measures'[Forecast Cases Next 12W] =
+        CALCULATE (
+            SUM ( FactDemandForecast[predicted_cases] ),
+            FactDemandForecast[record_type] = "Forecast"
+        )
+
+    MEASURE '_Measures'[Forecast Capacity Gap Hours] =
+        CALCULATE (
+            SUM ( FactDemandForecast[predicted_capacity_gap_hours] ),
+            FactDemandForecast[record_type] = "Forecast"
+        )
+
+    MEASURE '_Measures'[Forecast WAPE] =
+        AVERAGE ( ForecastModelEvaluation[wape] )
+
+    MEASURE '_Measures'[Actions Open] =
+        CALCULATE (
+            COUNTROWS ( FactActionInsight ),
+            FactActionInsight[action_status] IN { "Planned", "In progress" }
+        )
+
+    MEASURE '_Measures'[Estimated Avoidable Staff Hours] =
+        SUM ( FactActionInsight[estimated_avoidable_staff_hours] )
+
+    MEASURE '_Measures'[Data Quality Issues] =
+        COUNTROWS ( DataQualityIssues )
+
+    MEASURE '_Measures'[Cases with Repaired Data %] =
+        DIVIDE (
+            CALCULATE (
+                [Cases Received],
+                FILTER (
+                    FactCase,
+                    FactCase[dq_missing_owner_flag] = 1
+                        || FactCase[dq_repaired_datetime_flag] = 1
+                )
+            ),
+            [Cases Received]
+        )
+
+// Reconciliation: compare with the expected values in BUILD_GUIDE.md section 5.
+EVALUATE
+    ROW (
+        "Cases Received", [Cases Received],
+        "Cases Closed", [Cases Closed],
+        "Open Backlog As Of", [Open Backlog As Of],
+        "Aged Backlog 7D As Of", [Aged Backlog 7D As Of],
+        "SLA Compliance %", [SLA Compliance %],
+        "Median Resolution Business Hours", [Median Resolution Business Hours],
+        "CSAT Positive %", [CSAT Positive %],
+        "Forecast Cases Next 12W", [Forecast Cases Next 12W],
+        "Forecast Capacity Gap Hours", [Forecast Capacity Gap Hours],
+        "Forecast WAPE", [Forecast WAPE],
+        "Data Quality Issues", [Data Quality Issues]
+    )

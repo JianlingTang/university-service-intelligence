@@ -1,0 +1,7 @@
+lifecycle_stage_key,lifecycle_stage
+0,Unknown
+1,Pre-enrolment
+2,Commencing
+3,Continuing
+4,Completing
+5,Staff service

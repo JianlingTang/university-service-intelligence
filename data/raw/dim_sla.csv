@@ -1,0 +1,5 @@
+priority,first_response_target_business_hours,resolution_target_business_hours,sla_description
+P1,4,8,4h response / 8h resolution
+P2,8,16,8h response / 16h resolution
+P3,16,40,16h response / 40h resolution
+P4,24,80,24h response / 80h resolution

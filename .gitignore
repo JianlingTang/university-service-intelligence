@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+tmp/
+*.inspect.ndjson
+# Rebuilt by scripts/generate_synthetic_data.py
+data/university_service_intelligence.db

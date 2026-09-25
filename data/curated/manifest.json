@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-08-15T12:00:00+10:00",
+  "seed": 20260815,
+  "period_start": "2024-09-01",
+  "period_end": "2026-08-15",
+  "synthetic_label": "Synthetic demonstration data \u2014 not actual University of Sydney results",
+  "raw_tables": {
+    "raw_case": 18100,
+    "raw_case_event": 70000,
+    "raw_interaction": 35000,
+    "raw_feedback": 6000,
+    "raw_capacity_weekly": 1030,
+    "raw_work_order": 1500,
+    "raw_digital_journey_daily": 1428,
+    "raw_population_monthly": 1584,
+    "raw_action_insight": 8,
+    "raw_demand_forecast": 345,
+    "raw_forecast_model_evaluation": 3
+  },
+  "dimension_tables": {
+    "dim_date": 811,
+    "dim_service": 3,
+    "dim_team": 11,
+    "dim_campus": 4,
+    "dim_cohort": 8,
+    "dim_channel": 5,
+    "dim_sla": 4,
+    "dim_lifecycle_stage": 6
+  },
+  "validation_passed": true
+}

@@ -1,0 +1,9 @@
+cohort_key,cohort_name,requester_type,domestic_international
+0,Unknown,Unknown,Unknown
+1,Undergraduate Domestic,Student,Domestic
+2,Undergraduate International,Student,International
+3,Postgraduate Coursework Domestic,Student,Domestic
+4,Postgraduate Coursework International,Student,International
+5,Higher Degree Research,Student,Mixed
+6,Academic Staff,Academic Staff,Not applicable
+7,Professional Staff,Professional Staff,Not applicable

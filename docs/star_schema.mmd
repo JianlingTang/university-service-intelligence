@@ -1,0 +1,37 @@
+erDiagram
+    DimDate ||--o{ FactCase : submitted_date
+    DimDate ||--o{ FactCase : closed_date_inactive
+    DimDate ||--o{ FactCaseEvent : event_date
+    DimDate ||--o{ FactFeedback : feedback_date
+    DimDate ||--o{ FactCapacityWeekly : week_start
+    DimDate ||--o{ FactWorkOrder : created_date
+    DimDate ||--o{ FactDigitalJourneyDaily : date
+    DimDate ||--o{ FactPopulationMonthly : month_start
+    DimDate ||--o{ FactDemandForecast : week_start
+    DimService ||--o{ FactCase : service
+    DimService ||--o{ FactCapacityWeekly : service
+    DimService ||--o{ FactFeedback : service
+    DimService ||--o{ FactDigitalJourneyDaily : service
+    DimService ||--o{ FactDemandForecast : service
+    DimTeam ||--o{ FactCase : owner
+    DimTeam ||--o{ FactCaseEvent : event_owner
+    DimTeam ||--o{ FactCapacityWeekly : capacity
+    DimTeam ||--o{ FactWorkOrder : work_owner
+    DimCampus ||--o{ FactCase : campus
+    DimCampus ||--o{ FactFeedback : campus
+    DimCampus ||--o{ FactWorkOrder : campus
+    DimCampus ||--o{ FactPopulationMonthly : population
+    DimCohort ||--o{ FactCase : requester
+    DimCohort ||--o{ FactFeedback : respondent
+    DimCohort ||--o{ FactPopulationMonthly : population
+    DimLifecycleStage ||--o{ FactCase : journey_stage
+    DimLifecycleStage ||--o{ FactPopulationMonthly : population
+    DimChannel ||--o{ FactCase : submitted_channel
+    DimChannel ||--o{ FactInteraction : contact_channel
+    DimSLA ||--o{ FactCase : priority_target
+    FactCase ||--o{ FactCaseEvent : history
+    FactCase ||--o{ FactInteraction : contacts
+    FactCase ||--o{ FactFeedback : experience
+    FactCase ||--o{ FactWorkOrder : facilities_job
+    FactActionInsight }o--|| DimService : action_scope
+

@@ -1,0 +1,10 @@
+check,value,status
+Curated unique cases,18000,PASS
+Case events,70000,PASS
+Interactions,35000,PASS
+Feedback responses,6000,PASS
+Facilities work orders,1500,PASS
+Action insights,8,PASS
+Demand forecast rows,345,PASS
+DQ issues recorded,255,PASS
+Open backlog,182,PASS

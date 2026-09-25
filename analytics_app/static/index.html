@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>University Service Intelligence - Action Console</title>
+  <style>
+    :root { color-scheme: light; --navy:#102a43; --blue:#156b8a; --teal:#2a9d8f; --amber:#e9a23b; --red:#c84630; --ink:#243b53; --muted:#627d98; --line:#d9e2ec; --bg:#f5f7fa; --card:#fff; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    header { background:var(--navy); color:white; padding:22px 28px; }
+    h1 { margin:0 0 4px; font-size:24px; font-weight:650; }
+    header p { margin:0; opacity:.8; }
+    main { max-width:1180px; margin:0 auto; padding:22px; }
+    .toolbar { display:flex; gap:12px; align-items:center; justify-content:space-between; margin-bottom:16px; flex-wrap:wrap; }
+    select,input,button { font:inherit; }
+    select,input[type=number] { padding:8px 10px; border:1px solid var(--line); border-radius:6px; background:white; }
+    button { padding:9px 14px; border:0; border-radius:6px; background:var(--blue); color:white; cursor:pointer; }
+    .badge { padding:5px 9px; border-radius:999px; background:#fff3d6; color:#7c4d00; font-size:12px; }
+    .grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:15px; }
+    .metric .label { color:var(--muted); font-size:12px; }
+    .metric .value { margin-top:6px; color:var(--navy); font-size:27px; font-weight:650; }
+    .section { margin-top:18px; }
+    h2 { margin:0 0 12px; font-size:17px; color:var(--navy); }
+    .scenario { display:grid; grid-template-columns:180px 180px 1fr; gap:12px; align-items:end; }
+    label { display:grid; gap:5px; color:var(--muted); font-size:12px; }
+    .scenario-result { min-height:42px; padding:10px 12px; background:#eef8f6; border-left:4px solid var(--teal); }
+    svg { width:100%; height:210px; display:block; }
+    .axis { stroke:var(--line); stroke-width:1; }
+    .forecast-line { fill:none; stroke:var(--blue); stroke-width:3; }
+    .capacity-line { fill:none; stroke:var(--amber); stroke-width:2; stroke-dasharray:5 4; }
+    table { width:100%; border-collapse:collapse; }
+    th,td { text-align:left; padding:10px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+    th { color:var(--muted); font-size:12px; font-weight:600; }
+    .priority { font-weight:600; color:var(--red); }
+    .small { color:var(--muted); font-size:12px; }
+    @media (max-width:800px) { .grid { grid-template-columns:repeat(2,1fr); } .scenario { grid-template-columns:1fr; } .table-wrap { overflow:auto; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>University Service Intelligence - Action Console</h1>
+    <p>Evidence, demand forecast and capacity scenario analysis</p>
+  </header>
+  <main>
+    <div class="toolbar">
+      <label>Service
+        <select id="service">
+          <option value="">All services</option>
+          <option value="1">Student Administration</option>
+          <option value="2">IT Support</option>
+          <option value="3">Facilities</option>
+        </select>
+      </label>
+      <span class="badge">Synthetic demonstration data</span>
+    </div>
+
+    <section class="grid" id="metrics" aria-label="Operational summary"></section>
+
+    <section class="section card">
+      <h2>12-week demand and capacity outlook</h2>
+      <svg id="forecast" role="img" aria-label="Forecast demand and capacity line chart"></svg>
+      <div class="scenario">
+        <label>Demand change (%)<input id="demand" type="number" value="10" min="-30" max="50"></label>
+        <label>Capacity change (%)<input id="capacity" type="number" value="5" min="-30" max="50"></label>
+        <div><button id="run">Run scenario</button></div>
+      </div>
+      <div class="scenario-result" id="scenario">Adjust assumptions to test operational resilience.</div>
+    </section>
+
+    <section class="section card">
+      <h2>Evidence-backed actions</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Priority</th><th>Issue and evidence</th><th>Recommended action</th><th>Owner</th><th>Review</th></tr></thead>
+          <tbody id="actions"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <script>
+    const service = document.getElementById('service');
+    const fmt = new Intl.NumberFormat('en-AU',{maximumFractionDigits:1});
+    const pct = value => `${fmt.format((value || 0)*100)}%`;
+    const query = () => service.value ? `?service_key=${service.value}` : '';
+
+    function metric(label,value,context='') {
+      return `<div class="card metric"><div class="label">${label}</div><div class="value">${value}</div><div class="small">${context}</div></div>`;
+    }
+
+    async function loadSummary() {
+      const s = await fetch('/api/summary'+query()).then(r=>r.json());
+      document.getElementById('metrics').innerHTML = [
+        metric('Cases received',fmt.format(s.cases_received),'24-month synthetic period'),
+        metric('Open backlog',fmt.format(s.open_backlog),'Current operational load'),
+        metric('SLA compliance',pct(s.sla_compliance_rate),'Eligible resolved cases'),
+        metric('CSAT positive',pct(s.csat_positive_rate),`${fmt.format(s.response_count)} responses`),
+        metric('Repeat contact',pct(s.repeat_contact_rate),'Requester-initiated within 14 days'),
+        metric('Forecast cases',fmt.format(s.forecast_cases),'Next 12 weeks'),
+        metric('Forecast capacity gap',fmt.format(Math.max(0,s.forecast_gap_hours))+'h','Positive hours exceed typical capacity'),
+        metric('Data health issues',fmt.format(s.data_quality_issues),'Logged and remediated')
+      ].join('');
+    }
+
+    function drawForecast(rows) {
+      const svg = document.getElementById('forecast');
+      if (!rows.length) { svg.innerHTML='<text x="20" y="40">Select a service to view its forecast.</text>'; return; }
+      const grouped = new Map();
+      rows.forEach(r=>{
+        const current=grouped.get(r.week_start)||{week:r.week_start,demand:0,capacity:0};
+        current.demand+=r.predicted_handle_hours; current.capacity+=r.typical_capacity_hours; grouped.set(r.week_start,current);
+      });
+      const data=[...grouped.values()], W=920,H=210,p=34;
+      const max=Math.max(...data.flatMap(d=>[d.demand,d.capacity]))*1.1;
+      const x=i=>p+i*(W-2*p)/(data.length-1), y=v=>H-p-v*(H-2*p)/max;
+      const path=key=>data.map((d,i)=>`${i?'L':'M'}${x(i)},${y(d[key])}`).join(' ');
+      svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+      svg.innerHTML=`<line class="axis" x1="${p}" y1="${H-p}" x2="${W-p}" y2="${H-p}"/><line class="axis" x1="${p}" y1="${p}" x2="${p}" y2="${H-p}"/><path class="forecast-line" d="${path('demand')}"/><path class="capacity-line" d="${path('capacity')}"/><text x="${p}" y="18" fill="#156b8a">Predicted demand hours</text><text x="210" y="18" fill="#8a5a00">Typical capacity</text>`;
+    }
+
+    async function loadForecast(){ drawForecast(await fetch('/api/forecast'+query()).then(r=>r.json())); }
+    async function loadActions(){
+      const rows=await fetch('/api/actions'+query()).then(r=>r.json());
+      document.getElementById('actions').innerHTML=rows.map(r=>`<tr><td class="priority">${r.priority}</td><td><strong>${r.issue}</strong><div class="small">${r.evidence_1_name}: ${fmt.format(r.evidence_1_value)} · ${r.evidence_2_name}: ${fmt.format(r.evidence_2_value)} · n=${fmt.format(r.sample_size)}</div></td><td>${r.recommended_action}</td><td>${r.owner}</td><td>${String(r.next_review_date).slice(0,10)}</td></tr>`).join('');
+    }
+    async function refresh(){ await Promise.all([loadSummary(),loadForecast(),loadActions()]); }
+    service.addEventListener('change',refresh);
+    document.getElementById('run').addEventListener('click',async()=>{
+      const body={service_key:Number(service.value||1),demand_change_pct:Number(document.getElementById('demand').value),capacity_change_pct:Number(document.getElementById('capacity').value)};
+      const result=await fetch('/api/scenario',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}).then(r=>r.json());
+      document.getElementById('scenario').textContent=`${result.weeks_over_capacity} of 12 weeks exceed capacity; cumulative positive gap ${fmt.format(result.total_gap_hours)} staff hours.`;
+    });
+    refresh();
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,346 @@
+week_start,week_date_key,service_key,actual_cases,predicted_cases,lower_95_cases,upper_95_cases,predicted_handle_hours,typical_capacity_hours,predicted_capacity_gap_hours,record_type,model_version,forecast_generated_date,synthetic_label
+2024-08-26 00:00:00,20240826,1,4.0,104.31,73.54,135.08,127.76,111.05,16.71,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-09-02 00:00:00,20240902,1,68.0,65.49,34.72,96.26,80.21,111.05,-30.84,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-09-09 00:00:00,20240909,1,75.0,65.59,34.82,96.36,80.34,111.05,-30.72,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-09-16 00:00:00,20240916,1,71.0,65.74,34.97,96.51,80.52,111.05,-30.53,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-09-23 00:00:00,20240923,1,73.0,65.95,35.17,96.72,80.77,111.05,-30.28,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-09-30 00:00:00,20240930,1,64.0,66.2,35.43,96.97,81.08,111.05,-29.97,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-10-07 00:00:00,20241007,1,66.0,66.5,35.73,97.27,81.45,111.05,-29.6,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-10-14 00:00:00,20241014,1,69.0,66.85,36.08,97.62,81.88,111.05,-29.18,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-10-21 00:00:00,20241021,1,78.0,67.23,36.46,98.01,82.35,111.05,-28.7,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-10-28 00:00:00,20241028,1,74.0,67.66,36.89,98.43,82.87,111.05,-28.18,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-11-04 00:00:00,20241104,1,76.0,68.12,37.34,98.89,83.43,111.05,-27.62,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-11-11 00:00:00,20241111,1,73.0,68.6,37.83,99.37,84.02,111.05,-27.03,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-11-18 00:00:00,20241118,1,79.0,69.1,38.33,99.87,84.64,111.05,-26.41,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-11-25 00:00:00,20241125,1,72.0,69.62,38.85,100.39,85.28,111.05,-25.77,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-12-02 00:00:00,20241202,1,70.0,70.15,39.38,100.92,85.93,111.05,-25.13,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-12-09 00:00:00,20241209,1,81.0,70.68,39.91,101.46,86.58,111.05,-24.48,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-12-16 00:00:00,20241216,1,74.0,71.21,40.44,101.98,87.22,111.05,-23.83,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-12-23 00:00:00,20241223,1,62.0,71.73,40.96,102.5,87.86,111.05,-23.19,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-12-30 00:00:00,20241230,1,72.0,72.23,41.46,103.01,88.48,111.05,-22.58,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-01-06 00:00:00,20250106,1,92.0,72.72,41.94,103.49,89.07,111.05,-21.99,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-01-13 00:00:00,20250113,1,75.0,73.17,42.4,103.94,89.62,111.05,-21.43,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-01-20 00:00:00,20250120,1,72.0,73.59,42.82,104.36,90.14,111.05,-20.92,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-01-27 00:00:00,20250127,1,91.0,73.97,43.2,104.75,90.61,111.05,-20.45,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-02-03 00:00:00,20250203,1,139.0,113.18,82.41,143.95,138.63,111.05,27.58,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-02-10 00:00:00,20250210,1,116.0,113.48,82.71,144.25,138.99,111.05,27.94,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-02-17 00:00:00,20250217,1,126.0,113.73,82.96,144.5,139.3,111.05,28.25,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-02-24 00:00:00,20250224,1,116.0,113.93,83.16,144.7,139.54,111.05,28.49,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-03-03 00:00:00,20250303,1,120.0,114.07,83.3,144.84,139.72,111.05,28.67,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-03-10 00:00:00,20250310,1,118.0,114.17,83.4,144.94,139.84,111.05,28.78,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-03-17 00:00:00,20250317,1,101.0,114.21,83.44,144.98,139.89,111.05,28.84,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-03-24 00:00:00,20250324,1,120.0,114.2,83.43,144.97,139.88,111.05,28.82,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-03-31 00:00:00,20250331,1,72.0,114.14,83.37,144.91,139.8,111.05,28.75,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-04-07 00:00:00,20250407,1,72.0,75.17,44.4,105.94,92.07,111.05,-18.99,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-04-14 00:00:00,20250414,1,78.0,75.01,44.24,105.78,91.88,111.05,-19.17,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-04-21 00:00:00,20250421,1,71.0,74.82,44.05,105.59,91.64,111.05,-19.41,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-04-28 00:00:00,20250428,1,71.0,74.59,43.82,105.36,91.36,111.05,-19.7,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-05-05 00:00:00,20250505,1,74.0,74.32,43.55,105.09,91.03,111.05,-20.02,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-05-12 00:00:00,20250512,1,63.0,74.03,43.26,104.8,90.68,111.05,-20.38,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-05-19 00:00:00,20250519,1,78.0,73.72,42.95,104.49,90.29,111.05,-20.76,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-05-26 00:00:00,20250526,1,82.0,73.39,42.62,104.16,89.89,111.05,-21.16,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-06-02 00:00:00,20250602,1,69.0,73.05,42.28,103.82,89.47,111.05,-21.58,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-06-09 00:00:00,20250609,1,70.0,72.71,41.93,103.48,89.05,111.05,-22.0,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-06-16 00:00:00,20250616,1,77.0,72.37,41.59,103.14,88.64,111.05,-22.42,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-06-23 00:00:00,20250623,1,72.0,72.03,41.26,102.81,88.23,111.05,-22.82,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-06-30 00:00:00,20250630,1,124.0,71.72,40.95,102.49,87.84,111.05,-23.21,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-07-07 00:00:00,20250707,1,118.0,110.29,79.52,141.06,135.09,111.05,24.04,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-07-14 00:00:00,20250714,1,109.0,110.02,79.25,140.79,134.76,111.05,23.71,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-07-21 00:00:00,20250721,1,123.0,109.79,79.02,140.56,134.47,111.05,23.42,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-07-28 00:00:00,20250728,1,131.0,109.59,78.82,140.36,134.23,111.05,23.18,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-08-04 00:00:00,20250804,1,99.0,109.43,78.66,140.21,134.04,111.05,22.99,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-08-11 00:00:00,20250811,1,120.0,109.32,78.55,140.09,133.9,111.05,22.85,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-08-18 00:00:00,20250818,1,111.0,109.26,78.49,140.03,133.82,111.05,22.77,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-08-25 00:00:00,20250825,1,112.0,109.24,78.47,140.01,133.81,111.05,22.75,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-09-01 00:00:00,20250901,1,66.0,70.42,39.65,101.19,86.25,111.05,-24.8,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-09-08 00:00:00,20250908,1,59.0,70.51,39.74,101.28,86.36,111.05,-24.69,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-09-15 00:00:00,20250915,1,63.0,70.65,39.88,101.42,86.53,111.05,-24.52,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-09-22 00:00:00,20250922,1,55.0,70.84,40.07,101.61,86.77,111.05,-24.28,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-09-29 00:00:00,20250929,1,69.0,71.09,40.32,101.86,87.07,111.05,-23.98,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-10-06 00:00:00,20251006,1,66.0,71.38,40.61,102.15,87.43,111.05,-23.62,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-10-13 00:00:00,20251013,1,67.0,71.72,40.95,102.49,87.85,111.05,-23.21,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-10-20 00:00:00,20251020,1,69.0,72.1,41.33,102.87,88.31,111.05,-22.74,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-10-27 00:00:00,20251027,1,59.0,72.52,41.75,103.29,88.82,111.05,-22.23,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-11-03 00:00:00,20251103,1,66.0,72.97,42.2,103.74,89.38,111.05,-21.68,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-11-10 00:00:00,20251110,1,68.0,73.45,42.68,104.22,89.96,111.05,-21.09,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-11-17 00:00:00,20251117,1,73.0,73.95,43.18,104.72,90.58,111.05,-20.48,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-11-24 00:00:00,20251124,1,77.0,74.47,43.7,105.24,91.21,111.05,-19.84,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-12-01 00:00:00,20251201,1,75.0,75.0,44.22,105.77,91.86,111.05,-19.2,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-12-08 00:00:00,20251208,1,75.0,75.53,44.76,106.3,92.51,111.05,-18.54,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-12-15 00:00:00,20251215,1,79.0,76.06,45.29,106.83,93.16,111.05,-17.9,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-12-22 00:00:00,20251222,1,78.0,76.58,45.81,107.35,93.8,111.05,-17.26,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-12-29 00:00:00,20251229,1,72.0,77.08,46.31,107.85,94.42,111.05,-16.64,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-01-05 00:00:00,20260105,1,67.0,77.57,46.8,108.34,95.01,111.05,-16.04,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-01-12 00:00:00,20260112,1,71.0,78.03,47.26,108.8,95.57,111.05,-15.48,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-01-19 00:00:00,20260119,1,72.0,78.46,47.68,109.23,96.1,111.05,-14.96,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-01-26 00:00:00,20260126,1,71.0,78.85,48.08,109.62,96.57,111.05,-14.48,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-02-02 00:00:00,20260202,1,128.0,118.06,87.29,148.83,144.61,111.05,33.55,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-02-09 00:00:00,20260209,1,119.0,118.37,87.6,149.14,144.98,111.05,33.93,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-02-16 00:00:00,20260216,1,131.0,118.62,87.85,149.4,145.3,111.05,34.24,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-02-23 00:00:00,20260223,1,114.0,118.83,88.06,149.6,145.55,111.05,34.5,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-03-02 00:00:00,20260302,1,125.0,118.99,88.22,149.76,145.74,111.05,34.69,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-03-09 00:00:00,20260309,1,126.0,119.09,88.32,149.86,145.87,111.05,34.82,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-03-16 00:00:00,20260316,1,119.0,119.14,88.37,149.92,145.93,111.05,34.88,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-03-23 00:00:00,20260323,1,132.0,119.14,88.37,149.91,145.93,111.05,34.88,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-03-30 00:00:00,20260330,1,88.0,119.09,88.32,149.86,145.87,111.05,34.82,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-04-06 00:00:00,20260406,1,61.0,80.13,49.36,110.9,98.14,111.05,-12.91,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-04-13 00:00:00,20260413,1,80.0,79.98,49.21,110.75,97.97,111.05,-13.09,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-04-20 00:00:00,20260420,1,71.0,79.79,49.02,110.57,97.74,111.05,-13.32,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-04-27 00:00:00,20260427,1,70.0,79.57,48.8,110.34,97.46,111.05,-13.59,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-05-04 00:00:00,20260504,1,76.0,79.31,48.54,110.08,97.14,111.05,-13.91,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-05-11 00:00:00,20260511,1,76.0,79.02,48.25,109.79,96.79,111.05,-14.26,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-05-18 00:00:00,20260518,1,68.0,78.71,47.94,109.48,96.41,111.05,-14.64,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-05-25 00:00:00,20260525,1,67.0,78.39,47.61,109.16,96.01,111.05,-15.04,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-06-01 00:00:00,20260601,1,78.0,78.05,47.28,108.82,95.6,111.05,-15.46,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-06-08 00:00:00,20260608,1,73.0,77.71,46.93,108.48,95.18,111.05,-15.88,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-06-15 00:00:00,20260615,1,80.0,77.36,46.59,108.14,94.76,111.05,-16.29,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-06-22 00:00:00,20260622,1,87.0,77.03,46.26,107.8,94.35,111.05,-16.7,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-06-29 00:00:00,20260629,1,98.0,76.71,45.94,107.48,93.96,111.05,-17.09,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-07-06 00:00:00,20260706,1,133.0,115.28,84.51,146.05,141.2,111.05,30.15,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-07-13 00:00:00,20260713,1,109.0,115.01,84.24,145.78,140.87,111.05,29.81,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-07-20 00:00:00,20260720,1,127.0,114.77,84.0,145.54,140.57,111.05,29.52,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-07-27 00:00:00,20260727,1,141.0,114.56,83.79,145.33,140.32,111.05,29.27,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-08-03 00:00:00,20260803,1,123.0,114.4,83.63,145.17,140.12,111.05,29.07,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-08-10 00:00:00,20260810,1,94.0,114.28,83.51,145.05,139.97,111.05,28.92,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-08-17 00:00:00,20260817,1,,114.2,83.43,144.97,139.88,111.05,28.83,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-08-24 00:00:00,20260824,1,,114.18,83.41,144.95,139.85,111.05,28.8,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-08-31 00:00:00,20260831,1,,114.21,83.44,144.98,139.89,111.05,28.83,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-09-07 00:00:00,20260907,1,,75.42,44.65,106.2,92.38,111.05,-18.67,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-09-14 00:00:00,20260914,1,,75.56,44.79,106.33,92.55,111.05,-18.51,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-09-21 00:00:00,20260921,1,,75.74,44.97,106.51,92.77,111.05,-18.28,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-09-28 00:00:00,20260928,1,,75.98,45.21,106.75,93.06,111.05,-17.99,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-10-05 00:00:00,20261005,1,,76.26,45.49,107.03,93.41,111.05,-17.64,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-10-12 00:00:00,20261012,1,,76.59,45.82,107.37,93.82,111.05,-17.24,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-10-19 00:00:00,20261019,1,,76.97,46.2,107.74,94.27,111.05,-16.78,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-10-26 00:00:00,20261026,1,,77.38,46.61,108.15,94.78,111.05,-16.28,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-11-02 00:00:00,20261102,1,,77.82,47.05,108.6,95.32,111.05,-15.73,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-08-26 00:00:00,20240826,2,4.0,67.55,47.46,87.65,76.87,64.52,12.35,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-09-02 00:00:00,20240902,2,58.0,44.7,24.61,64.8,50.87,64.52,-13.65,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-09-09 00:00:00,20240909,2,46.0,44.66,24.56,64.75,50.82,64.52,-13.7,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-09-16 00:00:00,20240916,2,60.0,44.61,24.52,64.71,50.76,64.52,-13.76,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-09-23 00:00:00,20240923,2,37.0,44.57,24.48,64.67,50.72,64.52,-13.8,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-09-30 00:00:00,20240930,2,34.0,44.54,24.44,64.63,50.68,64.52,-13.84,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-10-07 00:00:00,20241007,2,39.0,44.51,24.41,64.6,50.65,64.52,-13.87,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-10-14 00:00:00,20241014,2,53.0,44.49,24.39,64.58,50.62,64.52,-13.9,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-10-21 00:00:00,20241021,2,47.0,44.47,24.38,64.57,50.61,64.52,-13.91,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-10-28 00:00:00,20241028,2,38.0,44.47,24.37,64.56,50.6,64.52,-13.92,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-11-04 00:00:00,20241104,2,50.0,44.48,24.38,64.57,50.61,64.52,-13.91,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-11-11 00:00:00,20241111,2,64.0,44.49,24.4,64.59,50.63,64.52,-13.89,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-11-18 00:00:00,20241118,2,45.0,44.52,24.42,64.61,50.66,64.52,-13.86,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-11-25 00:00:00,20241125,2,47.0,44.55,24.46,64.65,50.7,64.52,-13.82,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-12-02 00:00:00,20241202,2,50.0,44.6,24.5,64.7,50.75,64.52,-13.77,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-12-09 00:00:00,20241209,2,52.0,44.66,24.56,64.75,50.82,64.52,-13.7,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-12-16 00:00:00,20241216,2,38.0,44.73,24.63,64.82,50.89,64.52,-13.63,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-12-23 00:00:00,20241223,2,62.0,44.8,24.71,64.9,50.98,64.52,-13.54,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-12-30 00:00:00,20241230,2,44.0,44.89,24.79,64.98,51.08,64.52,-13.44,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-01-06 00:00:00,20250106,2,41.0,44.98,24.89,65.08,51.19,64.52,-13.33,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-01-13 00:00:00,20250113,2,37.0,45.09,24.99,65.18,51.3,64.52,-13.22,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-01-20 00:00:00,20250120,2,45.0,45.19,25.1,65.29,51.43,64.52,-13.09,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-01-27 00:00:00,20250127,2,44.0,45.31,25.21,65.4,51.56,64.52,-12.96,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-02-03 00:00:00,20250203,2,61.0,68.22,48.13,88.32,77.63,64.52,13.11,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-02-10 00:00:00,20250210,2,69.0,68.35,48.25,88.44,77.77,64.52,13.25,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-02-17 00:00:00,20250217,2,73.0,68.47,48.38,88.57,77.91,64.52,13.39,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-02-24 00:00:00,20250224,2,79.0,68.6,48.5,88.69,78.06,64.52,13.54,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-03-03 00:00:00,20250303,2,74.0,68.72,48.62,88.82,78.2,64.52,13.68,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-03-10 00:00:00,20250310,2,74.0,68.84,48.75,88.94,78.34,64.52,13.82,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-03-17 00:00:00,20250317,2,72.0,68.96,48.87,89.06,78.47,64.52,13.95,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-03-24 00:00:00,20250324,2,77.0,69.08,48.98,89.17,78.61,64.52,14.09,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-03-31 00:00:00,20250331,2,59.0,69.19,49.09,89.28,78.73,64.52,14.21,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-04-07 00:00:00,20250407,2,44.0,46.5,26.4,66.59,52.91,64.52,-11.61,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-04-14 00:00:00,20250414,2,38.0,46.59,26.5,66.69,53.02,64.52,-11.5,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-04-21 00:00:00,20250421,2,59.0,46.68,26.58,66.78,53.12,64.52,-11.4,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-04-28 00:00:00,20250428,2,47.0,46.76,26.66,66.85,53.21,64.52,-11.31,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-05-05 00:00:00,20250505,2,46.0,46.83,26.73,66.92,53.29,64.52,-11.23,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-05-12 00:00:00,20250512,2,53.0,46.89,26.79,66.98,53.36,64.52,-11.16,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-05-19 00:00:00,20250519,2,37.0,46.94,26.84,67.03,53.41,64.52,-11.11,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-05-26 00:00:00,20250526,2,41.0,46.98,26.88,67.07,53.46,64.52,-11.06,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-06-02 00:00:00,20250602,2,50.0,47.01,26.91,67.1,53.49,64.52,-11.03,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-06-09 00:00:00,20250609,2,47.0,47.02,26.93,67.12,53.51,64.52,-11.01,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-06-16 00:00:00,20250616,2,43.0,47.03,26.94,67.13,53.52,64.52,-11.0,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-06-23 00:00:00,20250623,2,41.0,47.03,26.93,67.13,53.52,64.52,-11.0,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-06-30 00:00:00,20250630,2,64.0,47.02,26.92,67.11,53.5,64.52,-11.02,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-07-07 00:00:00,20250707,2,84.0,69.8,49.7,89.89,79.42,64.52,14.9,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-07-14 00:00:00,20250714,2,82.0,69.77,49.67,89.86,79.39,64.52,14.87,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-07-21 00:00:00,20250721,2,78.0,69.74,49.64,89.83,79.35,64.52,14.83,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-07-28 00:00:00,20250728,2,60.0,69.7,49.6,89.79,79.31,64.52,14.79,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-08-04 00:00:00,20250804,2,74.0,69.65,49.56,89.75,79.26,64.52,14.74,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-08-11 00:00:00,20250811,2,71.0,69.6,49.51,89.7,79.21,64.52,14.68,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-08-18 00:00:00,20250818,2,69.0,69.56,49.46,89.65,79.15,64.52,14.63,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-08-25 00:00:00,20250825,2,77.0,69.51,49.41,89.6,79.09,64.52,14.57,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-09-01 00:00:00,20250901,2,48.0,46.66,26.56,66.75,53.09,64.52,-11.43,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-09-08 00:00:00,20250908,2,39.0,46.61,26.51,66.71,53.04,64.52,-11.48,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-09-15 00:00:00,20250915,2,38.0,46.56,26.47,66.66,52.99,64.52,-11.53,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-09-22 00:00:00,20250922,2,60.0,46.52,26.43,66.62,52.94,64.52,-11.58,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-09-29 00:00:00,20250929,2,41.0,46.49,26.39,66.58,52.9,64.52,-11.62,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-10-06 00:00:00,20251006,2,36.0,46.46,26.36,66.55,52.86,64.52,-11.66,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-10-13 00:00:00,20251013,2,48.0,46.43,26.34,66.53,52.84,64.52,-11.68,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-10-20 00:00:00,20251020,2,49.0,46.42,26.32,66.52,52.82,64.52,-11.7,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-10-27 00:00:00,20251027,2,54.0,46.41,26.32,66.51,52.82,64.52,-11.7,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-11-03 00:00:00,20251103,2,37.0,46.42,26.32,66.51,52.82,64.52,-11.7,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-11-10 00:00:00,20251110,2,47.0,46.43,26.34,66.53,52.84,64.52,-11.68,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-11-17 00:00:00,20251117,2,52.0,46.46,26.36,66.55,52.86,64.52,-11.66,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-11-24 00:00:00,20251124,2,45.0,46.49,26.4,66.59,52.9,64.52,-11.62,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-12-01 00:00:00,20251201,2,51.0,46.54,26.44,66.63,52.95,64.52,-11.57,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-12-08 00:00:00,20251208,2,37.0,46.59,26.5,66.69,53.02,64.52,-11.5,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-12-15 00:00:00,20251215,2,46.0,46.66,26.56,66.75,53.09,64.52,-11.43,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-12-22 00:00:00,20251222,2,36.0,46.73,26.64,66.83,53.18,64.52,-11.34,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-12-29 00:00:00,20251229,2,40.0,46.82,26.72,66.91,53.27,64.52,-11.25,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-01-05 00:00:00,20260105,2,49.0,46.91,26.82,67.01,53.38,64.52,-11.14,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-01-12 00:00:00,20260112,2,42.0,47.01,26.92,67.11,53.5,64.52,-11.02,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-01-19 00:00:00,20260119,2,41.0,47.12,27.02,67.21,53.62,64.52,-10.9,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-01-26 00:00:00,20260126,2,47.0,47.23,27.14,67.33,53.75,64.52,-10.77,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-02-02 00:00:00,20260202,2,79.0,70.15,50.05,90.24,79.82,64.52,15.3,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-02-09 00:00:00,20260209,2,77.0,70.27,50.17,90.36,79.96,64.52,15.44,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-02-16 00:00:00,20260216,2,78.0,70.39,50.3,90.49,80.1,64.52,15.58,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-02-23 00:00:00,20260223,2,69.0,70.52,50.42,90.61,80.24,64.52,15.72,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-03-02 00:00:00,20260302,2,76.0,70.64,50.55,90.74,80.39,64.52,15.87,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-03-09 00:00:00,20260309,2,75.0,70.77,50.67,90.86,80.53,64.52,16.01,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-03-16 00:00:00,20260316,2,58.0,70.89,50.79,90.98,80.66,64.52,16.14,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-03-23 00:00:00,20260323,2,65.0,71.0,50.91,91.1,80.8,64.52,16.28,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-03-30 00:00:00,20260330,2,61.0,71.11,51.02,91.21,80.92,64.52,16.4,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-04-06 00:00:00,20260406,2,47.0,48.42,28.33,68.52,55.1,64.52,-9.42,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-04-13 00:00:00,20260413,2,42.0,48.52,28.42,68.62,55.21,64.52,-9.31,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-04-20 00:00:00,20260420,2,42.0,48.61,28.51,68.71,55.31,64.52,-9.21,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-04-27 00:00:00,20260427,2,48.0,48.69,28.6,68.79,55.41,64.52,-9.11,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-05-04 00:00:00,20260504,2,47.0,48.76,28.67,68.86,55.49,64.52,-9.03,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-05-11 00:00:00,20260511,2,49.0,48.82,28.73,68.92,55.56,64.52,-8.96,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-05-18 00:00:00,20260518,2,49.0,48.88,28.78,68.97,55.62,64.52,-8.9,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-05-25 00:00:00,20260525,2,49.0,48.92,28.82,69.01,55.66,64.52,-8.86,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-06-01 00:00:00,20260601,2,37.0,48.95,28.85,69.04,55.7,64.52,-8.82,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-06-08 00:00:00,20260608,2,42.0,48.97,28.87,69.06,55.72,64.52,-8.8,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-06-15 00:00:00,20260615,2,56.0,48.98,28.88,69.07,55.73,64.52,-8.79,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-06-22 00:00:00,20260622,2,54.0,48.98,28.88,69.07,55.73,64.52,-8.79,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-06-29 00:00:00,20260629,2,67.0,48.97,28.87,69.06,55.72,64.52,-8.8,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-07-06 00:00:00,20260706,2,72.0,71.75,51.65,91.84,81.64,64.52,17.12,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-07-13 00:00:00,20260713,2,76.0,71.72,51.62,91.82,81.61,64.52,17.09,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-07-20 00:00:00,20260720,2,80.0,71.69,51.59,91.78,81.57,64.52,17.05,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-07-27 00:00:00,20260727,2,72.0,71.65,51.55,91.74,81.53,64.52,17.01,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-08-03 00:00:00,20260803,2,70.0,71.61,51.51,91.7,81.48,64.52,16.96,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-08-10 00:00:00,20260810,2,64.0,71.56,51.46,91.65,81.43,64.52,16.91,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-08-17 00:00:00,20260817,2,,71.51,51.41,91.6,81.37,64.52,16.85,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-08-24 00:00:00,20260824,2,,71.46,51.36,91.55,81.32,64.52,16.79,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-08-31 00:00:00,20260831,2,,71.41,51.31,91.5,81.26,64.52,16.74,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-09-07 00:00:00,20260907,2,,48.56,28.47,68.66,55.26,64.52,-9.26,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-09-14 00:00:00,20260914,2,,48.52,28.42,68.61,55.21,64.52,-9.31,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-09-21 00:00:00,20260921,2,,48.48,28.38,68.57,55.16,64.52,-9.36,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-09-28 00:00:00,20260928,2,,48.44,28.34,68.53,55.12,64.52,-9.4,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-10-05 00:00:00,20261005,2,,48.41,28.31,68.5,55.08,64.52,-9.44,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-10-12 00:00:00,20261012,2,,48.38,28.29,68.48,55.06,64.52,-9.46,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-10-19 00:00:00,20261019,2,,48.37,28.27,68.46,55.04,64.52,-9.48,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-10-26 00:00:00,20261026,2,,48.36,28.26,68.46,55.03,64.52,-9.49,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-11-02 00:00:00,20261102,2,,48.36,28.27,68.46,55.03,64.52,-9.49,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-08-26 00:00:00,20240826,3,4.0,42.17,24.38,59.96,50.14,42.95,7.18,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-09-02 00:00:00,20240902,3,33.0,27.77,9.98,45.56,33.01,42.95,-9.94,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-09-09 00:00:00,20240909,3,33.0,27.7,9.91,45.49,32.94,42.95,-10.02,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-09-16 00:00:00,20240916,3,29.0,27.66,9.87,45.45,32.89,42.95,-10.07,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-09-23 00:00:00,20240923,3,30.0,27.64,9.85,45.43,32.87,42.95,-10.09,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-09-30 00:00:00,20240930,3,18.0,27.65,9.86,45.44,32.87,42.95,-10.08,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-10-07 00:00:00,20241007,3,21.0,27.68,9.89,45.47,32.91,42.95,-10.04,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-10-14 00:00:00,20241014,3,35.0,27.73,9.95,45.52,32.97,42.95,-9.98,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-10-21 00:00:00,20241021,3,27.0,27.81,10.02,45.6,33.07,42.95,-9.89,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-10-28 00:00:00,20241028,3,42.0,27.91,10.12,45.7,33.19,42.95,-9.77,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-11-04 00:00:00,20241104,3,28.0,28.03,10.24,45.82,33.33,42.95,-9.62,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-11-11 00:00:00,20241111,3,28.0,28.17,10.39,45.96,33.5,42.95,-9.46,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-11-18 00:00:00,20241118,3,29.0,28.33,10.54,46.12,33.69,42.95,-9.27,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-11-25 00:00:00,20241125,3,27.0,28.51,10.72,46.3,33.89,42.95,-9.06,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-12-02 00:00:00,20241202,3,25.0,28.69,10.9,46.48,34.11,42.95,-8.84,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-12-09 00:00:00,20241209,3,27.0,28.89,11.1,46.68,34.35,42.95,-8.61,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-12-16 00:00:00,20241216,3,36.0,29.09,11.31,46.88,34.59,42.95,-8.36,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-12-23 00:00:00,20241223,3,22.0,29.3,11.52,47.09,34.84,42.95,-8.11,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2024-12-30 00:00:00,20241230,3,38.0,29.52,11.73,47.31,35.09,42.95,-7.86,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-01-06 00:00:00,20250106,3,37.0,29.73,11.94,47.52,35.34,42.95,-7.61,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-01-13 00:00:00,20250113,3,29.0,29.93,12.15,47.72,35.59,42.95,-7.36,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-01-20 00:00:00,20250120,3,31.0,30.14,12.35,47.92,35.83,42.95,-7.12,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-01-27 00:00:00,20250127,3,18.0,30.33,12.54,48.12,36.06,42.95,-6.9,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-02-03 00:00:00,20250203,3,50.0,44.82,27.03,62.61,53.29,42.95,10.34,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-02-10 00:00:00,20250210,3,64.0,44.99,27.2,62.78,53.49,42.95,10.54,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-02-17 00:00:00,20250217,3,36.0,45.14,27.35,62.93,53.66,42.95,10.71,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-02-24 00:00:00,20250224,3,43.0,45.27,27.48,63.06,53.82,42.95,10.87,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-03-03 00:00:00,20250303,3,42.0,45.38,27.59,63.17,53.95,42.95,11.0,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-03-10 00:00:00,20250310,3,51.0,45.46,27.67,63.25,54.05,42.95,11.1,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-03-17 00:00:00,20250317,3,62.0,45.53,27.74,63.32,54.13,42.95,11.18,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-03-24 00:00:00,20250324,3,48.0,45.57,27.78,63.36,54.18,42.95,11.22,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-03-31 00:00:00,20250331,3,25.0,45.59,27.8,63.38,54.2,42.95,11.24,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-04-07 00:00:00,20250407,3,36.0,31.26,13.47,49.05,37.17,42.95,-5.79,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-04-14 00:00:00,20250414,3,18.0,31.23,13.44,49.02,37.13,42.95,-5.83,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-04-21 00:00:00,20250421,3,29.0,31.17,13.38,48.96,37.06,42.95,-5.89,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-04-28 00:00:00,20250428,3,26.0,31.1,13.31,48.89,36.97,42.95,-5.98,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-05-05 00:00:00,20250505,3,24.0,31.0,13.21,48.79,36.85,42.95,-6.1,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-05-12 00:00:00,20250512,3,32.0,30.88,13.09,48.67,36.71,42.95,-6.24,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-05-19 00:00:00,20250519,3,21.0,30.74,12.95,48.53,36.55,42.95,-6.4,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-05-26 00:00:00,20250526,3,35.0,30.59,12.8,48.38,36.37,42.95,-6.58,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-06-02 00:00:00,20250602,3,32.0,30.43,12.64,48.22,36.18,42.95,-6.78,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-06-09 00:00:00,20250609,3,35.0,30.25,12.46,48.04,35.97,42.95,-6.99,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-06-16 00:00:00,20250616,3,28.0,30.07,12.28,47.86,35.75,42.95,-7.2,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-06-23 00:00:00,20250623,3,37.0,29.88,12.09,47.67,35.53,42.95,-7.43,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-06-30 00:00:00,20250630,3,59.0,29.69,11.9,47.48,35.3,42.95,-7.65,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-07-07 00:00:00,20250707,3,51.0,43.82,26.03,61.61,52.1,42.95,9.14,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-07-14 00:00:00,20250714,3,34.0,43.63,25.84,61.42,51.87,42.95,8.92,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-07-21 00:00:00,20250721,3,55.0,43.45,25.66,61.24,51.66,42.95,8.71,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-07-28 00:00:00,20250728,3,48.0,43.28,25.49,61.07,51.46,42.95,8.5,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-08-04 00:00:00,20250804,3,47.0,43.12,25.33,60.91,51.27,42.95,8.31,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-08-11 00:00:00,20250811,3,40.0,42.97,25.18,60.76,51.09,42.95,8.14,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-08-18 00:00:00,20250818,3,42.0,42.85,25.06,60.63,50.94,42.95,7.99,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-08-25 00:00:00,20250825,3,36.0,42.73,24.95,60.52,50.81,42.95,7.85,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-09-01 00:00:00,20250901,3,41.0,28.33,10.54,46.12,33.68,42.95,-9.28,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-09-08 00:00:00,20250908,3,34.0,28.26,10.47,46.05,33.6,42.95,-9.36,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-09-15 00:00:00,20250915,3,26.0,28.21,10.42,46.0,33.54,42.95,-9.41,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-09-22 00:00:00,20250922,3,36.0,28.19,10.4,45.98,33.52,42.95,-9.44,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-09-29 00:00:00,20250929,3,35.0,28.19,10.4,45.98,33.52,42.95,-9.43,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-10-06 00:00:00,20251006,3,27.0,28.22,10.43,46.01,33.55,42.95,-9.4,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-10-13 00:00:00,20251013,3,32.0,28.27,10.48,46.06,33.61,42.95,-9.34,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-10-20 00:00:00,20251020,3,21.0,28.34,10.55,46.13,33.7,42.95,-9.26,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-10-27 00:00:00,20251027,3,27.0,28.44,10.65,46.23,33.81,42.95,-9.14,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-11-03 00:00:00,20251103,3,28.0,28.56,10.77,46.35,33.95,42.95,-9.0,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-11-10 00:00:00,20251110,3,21.0,28.69,10.9,46.48,34.11,42.95,-8.84,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-11-17 00:00:00,20251117,3,24.0,28.85,11.06,46.64,34.3,42.95,-8.65,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-11-24 00:00:00,20251124,3,24.0,29.02,11.23,46.81,34.5,42.95,-8.45,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-12-01 00:00:00,20251201,3,28.0,29.2,11.42,46.99,34.72,42.95,-8.23,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-12-08 00:00:00,20251208,3,25.0,29.4,11.61,47.19,34.95,42.95,-8.0,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-12-15 00:00:00,20251215,3,28.0,29.6,11.81,47.39,35.2,42.95,-7.76,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-12-22 00:00:00,20251222,3,24.0,29.81,12.02,47.6,35.45,42.95,-7.51,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2025-12-29 00:00:00,20251229,3,21.0,30.02,12.24,47.81,35.7,42.95,-7.26,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-01-05 00:00:00,20260105,3,31.0,30.24,12.45,48.03,35.95,42.95,-7.01,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-01-12 00:00:00,20260112,3,26.0,30.44,12.65,48.23,36.2,42.95,-6.76,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-01-19 00:00:00,20260119,3,36.0,30.65,12.86,48.44,36.44,42.95,-6.52,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-01-26 00:00:00,20260126,3,40.0,30.84,13.05,48.63,36.67,42.95,-6.29,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-02-02 00:00:00,20260202,3,46.0,45.34,27.55,63.13,53.9,42.95,10.95,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-02-09 00:00:00,20260209,3,51.0,45.51,27.72,63.3,54.1,42.95,11.15,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-02-16 00:00:00,20260216,3,51.0,45.66,27.87,63.45,54.28,42.95,11.33,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-02-23 00:00:00,20260223,3,41.0,45.79,28.0,63.58,54.44,42.95,11.49,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-03-02 00:00:00,20260302,3,59.0,45.9,28.12,63.69,54.58,42.95,11.62,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-03-09 00:00:00,20260309,3,51.0,46.0,28.21,63.79,54.69,42.95,11.73,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-03-16 00:00:00,20260316,3,55.0,46.06,28.28,63.85,54.77,42.95,11.81,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-03-23 00:00:00,20260323,3,52.0,46.11,28.32,63.9,54.82,42.95,11.87,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-03-30 00:00:00,20260330,3,23.0,46.13,28.34,63.92,54.85,42.95,11.89,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-04-06 00:00:00,20260406,3,29.0,31.81,14.02,49.6,37.82,42.95,-5.13,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-04-13 00:00:00,20260413,3,40.0,31.78,13.99,49.57,37.79,42.95,-5.17,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-04-20 00:00:00,20260420,3,32.0,31.73,13.94,49.52,37.73,42.95,-5.23,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-04-27 00:00:00,20260427,3,22.0,31.66,13.87,49.45,37.64,42.95,-5.31,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-05-04 00:00:00,20260504,3,28.0,31.56,13.77,49.35,37.53,42.95,-5.43,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-05-11 00:00:00,20260511,3,34.0,31.45,13.66,49.24,37.39,42.95,-5.56,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-05-18 00:00:00,20260518,3,36.0,31.32,13.53,49.11,37.23,42.95,-5.72,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-05-25 00:00:00,20260525,3,22.0,31.17,13.38,48.96,37.06,42.95,-5.9,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-06-01 00:00:00,20260601,3,32.0,31.0,13.22,48.79,36.86,42.95,-6.09,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-06-08 00:00:00,20260608,3,25.0,30.83,13.04,48.62,36.66,42.95,-6.3,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-06-15 00:00:00,20260615,3,24.0,30.65,12.86,48.44,36.44,42.95,-6.51,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-06-22 00:00:00,20260622,3,23.0,30.46,12.67,48.25,36.22,42.95,-6.74,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-06-29 00:00:00,20260629,3,35.0,30.27,12.48,48.06,35.99,42.95,-6.96,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-07-06 00:00:00,20260706,3,40.0,44.4,26.61,62.19,52.79,42.95,9.83,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-07-13 00:00:00,20260713,3,54.0,44.21,26.42,62.0,52.56,42.95,9.61,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-07-20 00:00:00,20260720,3,47.0,44.03,26.24,61.82,52.35,42.95,9.39,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-07-27 00:00:00,20260727,3,38.0,43.86,26.07,61.64,52.14,42.95,9.19,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-08-03 00:00:00,20260803,3,44.0,43.69,25.9,61.48,51.95,42.95,8.99,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-08-10 00:00:00,20260810,3,42.0,43.55,25.76,61.33,51.77,42.95,8.82,Historical fit,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-08-17 00:00:00,20260817,3,,43.41,25.62,61.2,51.62,42.95,8.66,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-08-24 00:00:00,20260824,3,,43.3,25.51,61.09,51.48,42.95,8.53,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-08-31 00:00:00,20260831,3,,43.21,25.42,61.0,51.37,42.95,8.41,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-09-07 00:00:00,20260907,3,,28.81,11.03,46.6,34.26,42.95,-8.69,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-09-14 00:00:00,20260914,3,,28.77,10.98,46.55,34.2,42.95,-8.75,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-09-21 00:00:00,20260921,3,,28.74,10.95,46.53,34.17,42.95,-8.79,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-09-28 00:00:00,20260928,3,,28.74,10.95,46.53,34.17,42.95,-8.79,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-10-05 00:00:00,20261005,3,,28.76,10.97,46.55,34.19,42.95,-8.76,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-10-12 00:00:00,20261012,3,,28.8,11.02,46.59,34.25,42.95,-8.71,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-10-19 00:00:00,20261019,3,,28.87,11.08,46.66,34.33,42.95,-8.62,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-10-26 00:00:00,20261026,3,,28.97,11.18,46.76,34.44,42.95,-8.51,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results
+2026-11-02 00:00:00,20261102,3,,29.08,11.29,46.87,34.57,42.95,-8.38,Forecast,seasonal_linear_v1,2026-08-15 00:00:00,Synthetic demonstration data — not actual University of Sydney results

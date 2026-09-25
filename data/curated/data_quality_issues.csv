@@ -1,0 +1,256 @@
+issue_type,record_id,source_table,resolution
+Duplicate source row,CASE-000658,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-000769,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-000987,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-001026,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-001118,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-001210,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-001498,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-001609,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-002188,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-002378,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-002452,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-002692,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-003880,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-003978,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-004090,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-004328,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-004868,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-004969,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-005074,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-005117,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-005195,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-005198,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-005397,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-006021,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-006062,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-006103,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-006341,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-006358,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-006678,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-007013,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-007518,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-007625,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-007640,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-008286,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-008364,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-008410,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-008811,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-009106,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-009277,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-009463,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-009852,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-009970,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-010013,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-010101,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-010222,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-010244,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-010387,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-010576,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-010671,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-010733,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-010931,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-010976,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-011057,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-011122,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-011384,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-011388,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-011412,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-011615,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-011972,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-012477,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-012530,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-012689,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-012742,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-013016,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-013149,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-013347,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-013485,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-013613,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-013945,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-014063,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-014116,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-014761,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-014895,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-014915,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-014949,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-015487,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-015529,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-015537,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-015791,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-015816,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-015890,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-015935,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-015984,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-016157,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-016458,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-016520,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-016786,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-016828,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-016980,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-017100,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-017102,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-017160,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-017307,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-017352,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-017544,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-017582,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-017641,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-017775,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-017800,raw_case,Lower-ranked duplicate retained only in raw layer
+Duplicate source row,CASE-017924,raw_case,Lower-ranked duplicate retained only in raw layer
+Missing owner,CASE-000081,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-000238,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-000366,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-000523,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-000647,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-000800,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-001006,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-001091,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-001117,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-001237,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-001572,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-001582,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-001625,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-001772,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-001791,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-001794,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-001864,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-001933,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-001985,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-002273,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-002757,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-002768,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-002941,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-003106,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-003311,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-003368,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-003604,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-003630,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-003709,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-003964,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-004003,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-004314,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-004655,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-004701,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-004733,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-004929,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-004932,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-005024,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-005310,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-005527,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-005621,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-006062,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-006333,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-006359,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-006548,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-006661,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-006699,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-006760,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-006800,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-007296,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-007558,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-007590,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-007644,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-007696,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-007792,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-007930,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-007961,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-008044,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-008467,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-008618,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-008682,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-008758,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-008839,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-009042,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-009076,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-009077,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-009129,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-009161,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-009246,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-009305,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-009460,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-009751,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-009940,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-010182,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-010374,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-010442,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-010710,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-010879,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-011132,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-011244,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-011264,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-011290,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-011296,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-011494,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-011556,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-011611,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-011960,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-012368,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-012662,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-012667,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-012731,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-012886,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-013121,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-013246,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-013467,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-013638,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-013786,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-013856,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-014187,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-014779,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-015074,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-015278,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-015313,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-015326,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-015406,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-015425,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-015753,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-016038,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-016143,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-016278,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-016509,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-016676,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-016873,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-017215,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-017386,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-017461,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-017476,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-017521,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-017946,raw_case,Mapped to Unknown team key 0
+Missing owner,CASE-017953,raw_case,Mapped to Unknown team key 0
+Invalid close timestamp,CASE-000016,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-000702,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-000854,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-000918,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-001354,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-001500,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-001619,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-001742,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-001834,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-002986,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-004227,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-004261,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-005427,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-006268,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-006576,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-006758,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-007965,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-007975,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-008288,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-008453,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-009028,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-009335,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-009562,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-009816,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-010491,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-011416,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-011796,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-011878,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-012885,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-013336,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-014575,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-015432,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-015441,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-015607,raw_case,Repaired from submitted timestamp and resolution duration
+Invalid close timestamp,CASE-016567,raw_case,Repaired from submitted timestamp and resolution duration
