@@ -3,8 +3,8 @@
 // open Advanced editor and paste the block's body. BUILD_GUIDE.md section 2 has the click path.
 // Column types are explicit so every key matches its dimension and no numeric column loads as text.
 
-// Query name: BaseUrl   (parameter; replace <github-user>/<repo> with your public repository)
-"https://raw.githubusercontent.com/<github-user>/<repo>/main/data/curated/" meta [IsParameterQuery = true, Type = "Text", IsParameterQueryRequired = true]
+// Query name: BaseUrl   (parameter; points at the public repository that serves data/curated)
+"https://raw.githubusercontent.com/JianlingTang/university-service-intelligence/main/data/curated/" meta [IsParameterQuery = true, Type = "Text", IsParameterQueryRequired = true]
 
 // Query name: LoadCsv   (function; not loaded to the model)
 // Web.Contents keeps BaseUrl static and passes the file as RelativePath, so scheduled refresh works in the service.

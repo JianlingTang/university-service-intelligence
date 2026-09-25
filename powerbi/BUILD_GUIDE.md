@@ -15,14 +15,14 @@ The model deliberately leaves out `fact_case_event` and `fact_interaction`. No p
 
 1. **Account.** Power BI only accepts work or school accounts. Publish to web also needs the tenant setting *Publish to web* to be enabled (step 7). If you use a university tenant, its admin has probably disabled this setting. In that case, use a tenant where you are the admin (for example, one created by a Microsoft 365 Business trial). Then sign in to Power BI with that account.
 2. **Stay in *My workspace*.** Publish to web from My workspace needs only a free Power BI license. Other workspaces need Pro.
-3. **Public CSVs.** Push this repository to a **public** GitHub repo; the data is synthetic. Then check that this URL downloads a file:
-   `https://raw.githubusercontent.com/<github-user>/<repo>/main/data/curated/dim_campus.csv`
+3. **Public CSVs.** The CSVs are served from the public repository (the data is synthetic). This URL must download a file:
+   `https://raw.githubusercontent.com/JianlingTang/university-service-intelligence/main/data/curated/dim_campus.csv`
 
 ## 1. Create the queries
 
 1. In Power BI, open **Create** → **Get data** → **Blank query**.
 2. Create each query in `power_query.pq`, in order. For each one: **New query → Blank query**, rename it to the `Query name` in the comment, open **Advanced editor**, and paste the body.
-   - Create `BaseUrl` first and replace `<github-user>/<repo>` in it.
+   - Create `BaseUrl` first. It points at this repository; change it only if you fork the repository.
    - Create `LoadCsv` next. It is a function, so it does not load a table.
    - Then create the 18 table queries (`DimDate` … `DataQualityIssues`).
 3. When the first query asks for a connection, choose **Anonymous** authentication and privacy level **Public**.
