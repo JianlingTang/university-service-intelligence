@@ -56,8 +56,13 @@
 
    ```dax
    resolution_band_order =
-   SWITCH ( FactFeedback[resolution_time_band], "0–8h", 1, "9–24h", 2, "25–80h", 3, "80h+", 4, "Open/Excluded", 5 )
+   SWITCH (
+       LOOKUPVALUE ( FactCase[resolution_time_band], FactCase[case_id], FactFeedback[related_case_id] ),
+       "0–8h", 1, "9–24h", 2, "25–80h", 3, "80h+", 4, "Open/Excluded", 5
+   )
    ```
+
+   排序列不能引用被排序的列：如果写成 `SWITCH ( FactFeedback[resolution_time_band], … )`，设置 Sort by column 时会报 circular dependency。所以这里直接从 `FactCase` 取值。
 
 3. **日期表。** 右键 `DimDate` → **Mark as date table**，日期列选 `date`。
 4. **Sort by column**（在 Properties 面板里设置）：
