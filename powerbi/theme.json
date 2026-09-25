@@ -8,6 +8,7 @@
     "*": {
       "*": {
         "title": [{"show": true, "fontFamily": "Segoe UI", "fontSize": 12, "foreground": {"solid": {"color": "#102A43"}}}],
+        "subTitle": [{"show": false}],
         "background": [{"show": true, "color": {"solid": {"color": "#FFFFFF"}}, "transparency": 0}],
         "border": [{"show": true, "color": {"solid": {"color": "#D9E2EC"}}, "radius": 4}],
         "visualHeader": [{"show": false}]
