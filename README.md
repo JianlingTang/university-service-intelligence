@@ -11,7 +11,7 @@ An end-to-end, synthetic analytics portfolio project designed around the Analyti
 - Transparent operational, experience, equity and benefit measures.
 - A seasonal demand forecast with a 12-week outlook, uncertainty bounds and holdout WAPE evaluation.
 - Eight evidence-backed actions with owner, baseline, target, success measure and review date.
-- Four 16:9 dashboard mockups, a Power BI theme, DAX library and Desktop build guide.
+- A four-page Power BI report (.pbix, PDF and screenshots), plus the theme, DAX library and browser-only build guide used to create it.
 - A read-only Analytics Action Console with JSON APIs and a capacity scenario calculator.
 - A formula-linked Excel implementation pack covering QA, model definitions and JD traceability.
 
@@ -37,20 +37,22 @@ Run validation tests:
 python3 -m unittest tests/test_analytics_app.py -v
 ```
 
-## Power BI hand-off
+## Power BI report
 
-The report is built in the Power BI service (browser only) and shared with Publish to web. Follow [powerbi/BUILD_GUIDE.md](powerbi/BUILD_GUIDE.md):
+![Executive Operational Health](docs/screenshots/01-executive-operational-health.png)
 
-- [powerbi/power_query.pq](powerbi/power_query.pq) loads the curated CSVs from this repository with explicit column types.
-- [powerbi/measures.dax](powerbi/measures.dax) writes all measures to the model in one step from DAX query view.
-- The guide's reconciliation table lists the KPI values the model must return.
+The report was built entirely in the Power BI service (browser only) on the curated data in this repository. Four pages:
 
-The intended pages are:
+| Page | Question it answers | Screenshot |
+|---|---|---|
+| Executive Operational Health | Where should leaders act first? | [view](docs/screenshots/01-executive-operational-health.png) |
+| Bottlenecks & Capacity | Where does work wait, and do resources match demand? | [view](docs/screenshots/02-bottlenecks-capacity.png) |
+| Experience & Equity | Which users experience disproportionate friction? | [view](docs/screenshots/03-experience-equity.png) |
+| Actions & Benefits | Who owns each response, and is it working? | [view](docs/screenshots/04-actions-benefits.png) |
 
-1. Executive Operational Health — where leaders should act first.
-2. Bottlenecks & Capacity — where work waits and whether resources match demand.
-3. Experience & Equity — which users experience disproportionate friction.
-4. Actions & Benefits — who owns each response and whether it worked.
+- [powerbi/University_Service_Intelligence.pbix](powerbi/University_Service_Intelligence.pbix) contains the semantic model (relationships, 45 DAX measures) and the report. Open it in Power BI Desktop, or upload it to the Power BI service.
+- [docs/University_Service_Intelligence.pdf](docs/University_Service_Intelligence.pdf) is a static export of all four pages.
+- To rebuild from scratch, follow [powerbi/BUILD_GUIDE.md](powerbi/BUILD_GUIDE.md). [powerbi/power_query.pq](powerbi/power_query.pq) loads the curated CSVs with explicit column types, and [powerbi/measures.dax](powerbi/measures.dax) writes every measure to the model in one step from DAX query view. The guide's reconciliation table lists the KPI values the model must return.
 
 ## Position-description evidence
 
